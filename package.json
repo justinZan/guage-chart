@@ -1,0 +1,45 @@
+{
+	"name": "justin-gauge",
+	"version": "0.0.1",
+	"description": "Gauge chart published based on web-Component and chartJs.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"chart.js": "^4.3.0",
+		"lit": "^2.7.5"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.1.0",
+		"chai": "^4.1.2",
+		"coveralls": "^3.0.2",
+		"istanbul": "^0.4.5",
+		"mocha": "^5.2.0",
+		"gulp": "^4.0.2",
+		"gulp-shell": "^0.7.1",
+		"tslint": "^5.20.1",
+		"typescript": "^3.7.2"
+	},
+	"postcss": {
+		"plugins": {
+			"autoprefixer": {}
+		}
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	],
+	"directories": {
+		"lib": "lib",
+		"test": "test"
+	},
+	"npmPublish": {
+		"ip": "https://www.npmjs.com/",
+		"userName": "justinzan",
+		"passWord": "mimashi930820",
+		"email": "1105503089@qq.com"
+	}
+}

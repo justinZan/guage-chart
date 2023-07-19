@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"declaration": true,
+		"outDir": "./dist",
+		// "strict": true,
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"strictFunctionTypes": false,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"baseUrl": ".",
+		"noImplicitAny": true,
+		"paths": {
+			"lib/*": ["lib/*"]
+		}
+	}
+}

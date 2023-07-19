@@ -1,10 +1,10 @@
 {
 	"name": "justin-gauge",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Gauge chart published based on web-Component and chartJs.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
-	"repository": {"repository": {
+	"repository": {
 		"type": "git",
 		"url": "git@github.com:justinZan/guage-chart.git"
 	},
@@ -14,7 +14,7 @@
 	"author": {
 		"name": "justin Zan",
 		"email": "1105503089@qq.com"
-	  },
+	},
 	"publishConfig": {
 		"access": "public"
 	},

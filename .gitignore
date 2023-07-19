@@ -19,9 +19,3 @@ npm-debug.log
 /coverage
 /reports
 
-# build and temp folders
-/lib
-/hello-web-components.*
-/index.html
-_site
-.jekyll-cache
